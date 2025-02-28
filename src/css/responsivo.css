@@ -1,0 +1,91 @@
+@media (max-width: 900px){
+  
+   .skills-section{
+    padding: 3rem 12rem;
+    
+   }
+
+  .project-section{
+    text-align: center;
+  }
+  .project-section .project-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .skills-section {
+    padding: 5rem;
+  }
+  .header-container .nav-section {
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  .topo-site {
+    padding: 0 0.3rem;
+  }
+
+  .text-site {
+    margin-left: 15px;
+
+    padding: 15px;
+  }
+  .topo-interface .text-site h2 {
+    font-size: 26px;
+  }
+  .topo-interface .text-site p {
+    font-size: 12px;
+  }
+
+  .topo-interface .text-site .btn-contact {
+    padding: 5px 10px;
+  }
+
+  .topo-site .topo-interface .my-picture img {
+    width: 177px;
+  }
+
+  .header-container .nav-section .box-buttons {
+    margin-left: 250px;
+    margin-top: 20px;
+  }
+
+  .skills-section .box-skill .box-code {
+    width: 90%;
+    height: 255px;
+    font-size: 13px;
+  }
+
+  .project-section .project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-container .box-project {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .project-container .box-project p {
+    display: flex;
+    margin-left: 65px;
+    font-size: 12px;
+    width: 400px;
+  }
+  .project-container .box-project img {
+    width: 75%;
+    height: 240px;
+    margin-left: 24px;
+  }
+}
+
