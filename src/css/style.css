@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #141414;
+}
+
+/* header */
+header {
+  padding: 1.5rem;
+}
+
+header .header-container .nav-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 2;
+}
+
+.nav-section .list-works {
+  display: flex;
+  gap: 0 2rem;
+  list-style: none;
+}
+
+.nav-section .list-works li a {
+  color: #dddddd;
+  font-size: 16px;
+}
+
+.nav-section .list-works li a:hover {
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-section .box-buttons {
+  margin-left: 70px;
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-media {
+  padding: 5px 0px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.nav-section .box-buttons .btn-media img {
+  width: 30px;
+}
+
+.btn-media:hover {
+  transition: 0.3s ease-in-out;
+  transform: translateY(-3px);
+}
+
+/* parte princiapl topo do site */
+
+.topo-site {
+  color: #f5f5f5;
+  padding: 4rem;
+}
+
+.topo-site .topo-interface {
+  display: flex;
+  align-items: center;
+}
+
+.text-site {
+  margin-right: 20px;
+}
+
+.topo-site .topo-interface .text-site h1 {
+  font-size: 35px;
+}
+
+.topo-site .topo-interface .text-site p {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.topo-interface .text-site .btn-contact {
+  padding: 10px 35px;
+  border-radius: 10px;
+  background-color: #134aff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+}
+
+.topo-interface .text-site .btn-contact:hover {
+  background-color: #0b39d3;
+  transition: 0.3s ease-in-out;
+  transform: translate(5px);
+}
+
+.my-picture img {
+  width: 330px;
+  border-radius: 10px;
+}
+
+/* seção de habilidades */
+
+.skills-section {
+  padding: 5rem;
+}
+
+.skills-section .h3 {
+  font-size: 28px;
+  text-align: center;
+}
+
+h3 {
+  color: #fff;
+}
+
+.skills-section .box-skill p {
+  color: #e4dfdf;
+}
+
+.skills-section .box-skill {
+  display: grid;
+  margin-top: 50px;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr ));
+}
+
+.skills-section .box-skill img {
+  width: 85px;
+  margin-top: 15px;
+}
+
+.box-skill .box-code {
+  width: 308px;
+  height: 285px;
+  padding: 1.6rem 2rem;
+  background-color: #2b2b2b;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.box-skill .box-code:hover {
+  box-shadow: 0 0 5px #134aff;
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+}
+
+/* seção de projetos */
+.project-section {
+  padding: 5rem;
+  width: 100%;
+  background-color: #f1ebeb;
+}
+
+.project-section .title-project {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.project-section .title-project h3 {
+  font-size: 30px;
+}
+
+.project-section h3 {
+  color: #2b2b2b;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+
+  padding: 0 30px;
+}
+
+.project-container .box-project {
+
+  width: 550px;
+  padding: 25px;
+  margin-right: 30px;
+
+}
+
+.project-container .box-project h3 {
+  font-size: 25px;
+  margin-bottom: 6px;
+}
+
+.project-container .box-project p {
+  font-size: 14px;
+  color: #313131;
+  margin-bottom: 15px;
+}
+
+.box-project .btn-project {
+  padding: 12px 30px;
+  cursor: pointer;
+  background-color: #134aff;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 10px #134aff;
+}
+
+.box-project .btn-project:hover {
+  background-color: #0b39d3;
+  transition: 0.3s ease-in-out;
+  transform: translateY(-3px);
+}
+
+.project-container .box-project img {
+  width: 450px;
+  height: 250px;
+  border-radius: 15px;
+  border: none;
+}
+
+/* Repsponsivo */
